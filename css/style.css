@@ -2,6 +2,8 @@
 
 body {
     font-family: 'Orbitron', sans-serif;
+    margin: 0px;
+    background-color: #000000;
 }
 
 .header {
@@ -11,7 +13,6 @@ body {
 }
   
 .header a {
-    float: left;
     color: white;
     text-align: center;
     padding: 12px;
@@ -21,24 +22,115 @@ body {
     border-radius: 4px;
 }
   
+.button {
+    font-size: 12pt;
+	color: white;
+	background: transparent;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 3px solid white;
+	margin: 20px;
+	position: relative;
+	letter-spacing: 1px;
+	outline: none;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.button:before {
+	content: '';
+	width: 20px;
+	height: 20px;
+	background: #000000;
+	border: 3px solid white;
+	transform: rotate(45deg);
+	position: absolute;
+	border-top: 0;
+	border-left: 0;
+	border-bottom: 0;
+	top: -12px;
+	left: -13px;
+
+}
+
+.button:after {
+	content: '';
+	width: 20px;
+	height: 20px;
+	background: #000000;
+	border: 3px solid white;
+	transform: rotate(-132deg);
+	position: absolute;
+	border-top: 0;
+	border-left: 0;
+	border-bottom: 0;
+	top: auto;
+	right: -13px;
+	bottom: -12px;
+
+}
+
+.button:hover {
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    color: #000000;
+}
+
 .header a.logo {
     font-size: 25px;
     font-weight: bold;
 }
   
-.header a:hover {
-    background-color: #ddd;
-    color: black;
-}
-  
 .header-right {
+    align-items: center;
     float: right;
+    text-shadow: 0 0 5px white;
+}
+
+.hover {
+  text-decoration: none;
+  padding: 5px 0;
+  line-height: 1;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #ffffff, #d0d0d0 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  transition: all 0.3s ease-in-out;
+}
+.hover:before {
+  content: "";
+  width: 0;
+  height: 3px;
+  bottom: 5px;
+  left: 0;
+  bottom: -3px;
+  z-index: 0;
+  position: absolute;
+  background: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+.hover:hover {
+  background-position: 0%;
+}
+.hover:hover:before {
+  width: 100%;
+}
+
+.header-right a {
+    margin-left: 50px;
 }
 
 .header img {
     float: left;
     width: 200px;
     height: 100px;
+    align-items: center;
 }
 
 .cycle-photo img {

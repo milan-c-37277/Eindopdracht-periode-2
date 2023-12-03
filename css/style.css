@@ -4,12 +4,16 @@ body {
     font-family: 'Orbitron', sans-serif;
     margin: 0px;
     background-color: #000000;
+    overflow-x: hidden;
 }
 
 .header {
+    animation: fadeIn;
+    animation-duration: 1s;
     overflow: hidden;
     background-color: #000000;
     padding: 20px 10px;
+    box-shadow: #fff;
 }
   
 .header a {
@@ -136,5 +140,147 @@ body {
 .cycle-photo img {
     float: center;
     width: 100%;
-    
+}
+
+.InfoPic {
+    display: flex;
+    justify-content: space-around;
+    /* padding: 100px; */
+}
+
+.InfoPic img {
+    width: 400px;
+    height: 290px;
+    border-radius: 30px;
+}
+
+.InfoPic-1 {
+    animation: backInLeft;
+    animation-duration: 2s;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.InfoPic-2 {
+    animation: backInUp;
+    animation-duration: 2s;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.InfoPic-3 {
+    animation: backInRight;
+    animation-duration: 2s;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.InfoPic p {
+    color: white;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+}
+
+.History .titles {
+    padding-top: 200px;
+    display: flex;
+    color: white;
+    background-color: #000000;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+.History p{
+    background-color: #000000;
+    color: white;
+}
+
+.text-history {
+    display: flex;
+    margin: 10px;
+
+}
+
+.text-history p {
+    font-size: 12pt;
+	color: white;
+	background: transparent;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 3px solid white;
+	margin: 20px;
+	position: relative;
+	letter-spacing: 1px;
+	outline: none;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.text-history p:before {
+	content: '';
+	width: 20px;
+	height: 20px;
+	background: #000000;
+	border: 3px solid white;
+	transform: rotate(45deg);
+	position: absolute;
+	border-top: 0;
+	border-left: 0;
+	border-bottom: 0;
+	top: -12px;
+	left: -13px;
+
+}
+
+.text-history p:after {
+	content: '';
+	width: 20px;
+	height: 20px;
+	background: #000000;
+	border: 3px solid white;
+	transform: rotate(-132deg);
+	position: absolute;
+	border-top: 0;
+	border-left: 0;
+	border-bottom: 0;
+	top: auto;
+	right: -13px;
+	bottom: -12px;
+
+}
+.reviews{
+    background-color: #000000;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ 
+.personIcon{
+    width: 50px;    
+    padding-right: 600px;
+   
+}
+.Geschiedenis{
+    width: 50%;
+}
+.what-to-do{
+    width: 50%;
+}
+
+.footer {
+    color: white;
+}
+
+.footer .Contact {
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+.footer img {
+    float: center;
+    width: 100%;
 }

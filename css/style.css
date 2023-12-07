@@ -331,11 +331,11 @@ input:checked+.slider:before {
     color: white;
 }
 
-.review-1 {
+.review {
     position: relative;
 }
 
-.review-1 p {
+.review p {
     font-size: 12pt;
     color: white;
     background: transparent;
@@ -352,7 +352,7 @@ input:checked+.slider:before {
 
 }
 
-.review-1 p:before {
+.review p:before {
     content: '';
     width: 20px;
     height: 20px;
@@ -369,7 +369,7 @@ input:checked+.slider:before {
 
 }
 
-.review-1 p:after {
+.review p:after {
     content: '';
     width: 20px;
     height: 20px;
@@ -404,8 +404,7 @@ input:checked+.slider:before {
 }
 
 
-.review-1 h3,
-.review-2 h3 {
+.review h3 {
 
     padding-left: 50px;
 }
@@ -462,18 +461,6 @@ input:checked+.slider:before {
 
 }
 
-.personIcon-2{
-    width: 50px;
-    padding-left: 20px;
-    margin-top: 50px;
-    border-radius: 10px;
-    position: absolute;
-    border-top: 0;
-    border-left: 0;
-    border-bottom: 0;
-    top: 2450px;
-    left: 712px;
-}
 
 .Geschiedenis {
     width: 50%;

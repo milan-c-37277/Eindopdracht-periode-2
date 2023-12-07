@@ -324,8 +324,107 @@ input:checked + .slider:before {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    color: white;
+}
+
+.review-1 p {
+    font-size: 12pt;
+	color: white;
+	background: transparent;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 3px solid white;
+	margin: 20px;
+	position: relative;
+	letter-spacing: 1px;
+	outline: none;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.review-1 p:before {
+	content: '';
+	width: 20px;
+	height: 20px;
+	background: #000000;
+	border: 3px solid white;
+	transform: rotate(45deg);
+	position: absolute;
+	border-top: 0;
+	border-left: 0;
+	border-bottom: 0;
+	top: -12px;
+	left: -13px;
+
+}
+
+.review-1 p:after {
+	content: '';
+	width: 20px;
+	height: 20px;
+	background: #000000;
+	border: 3px solid white;
+	transform: rotate(-132deg);
+	position: absolute;
+	border-top: 0;
+	border-left: 0;
+	border-bottom: 0;
+	top: auto;
+	right: -13px;
+	bottom: -12px;
+
 }
  
+.review-2 p {
+    font-size: 12pt;
+	color: white;
+	background: transparent;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 3px solid white;
+	margin: 20px;
+	position: relative;
+	letter-spacing: 1px;
+	outline: none;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.review-2 p:before {
+	content: '';
+	width: 20px;
+	height: 20px;
+	background: #000000;
+	border: 3px solid white;
+	transform: rotate(45deg);
+	position: absolute;
+	border-top: 0;
+	border-left: 0;
+	border-bottom: 0;
+	top: -12px;
+	left: -13px;
+
+}
+
+.review-2 p:after {
+	content: '';
+	width: 20px;
+	height: 20px;
+	background: #000000;
+	border: 3px solid white;
+	transform: rotate(-132deg);
+	position: absolute;
+	border-top: 0;
+	border-left: 0;
+	border-bottom: 0;
+	top: auto;
+	right: -13px;
+	bottom: -12px;
+
+}
+
 .personIcon{
     width: 50px;    
     padding-right: 600px;

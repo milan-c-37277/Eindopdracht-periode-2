@@ -1,31 +1,31 @@
 # Eindopdracht-periode-2
-
+ 
 ### NXT Museum
-
+ 
 Tijdens de tweede periode van leerjaar 1 was de eindopdracht om een website te maken over het **NXT Museum**. Je kan de website bezoeken door [hier](https://37277.hosts2.ma-cloud.nl/eindopdracht-p2/index.html) te klikken.
-
+ 
 ### Eisen:
 voor de website waren er ook een paar eisen die minimaal op de website moesten staan. Dit zijn de volgende punten:
-
+ 
 ##### Informatie:
-- Geschiedenis in het kort.
-- Overzicht van wat je kan doen & zien.
-- Contactgegevens.
-    - Openingstijden.
-    - locatie / route.
-- Reviews van bezoekers.
+- [x] Geschiedenis in het kort.
+- [x] Overzicht van wat je kan doen & zien.
+- [x] Contactgegevens.
+    - [x] Openingstijden.
+    - [x] locatie / route.
+- [x] Reviews van bezoekers.
 ##### Andere eisen:
-- Interactieve elementen op de website.
-- Minimaal 5 plaatjes van het museum in de site.
-- de site staat op de ma-cloud online in een aparte map.
-- de landing page moet professioneel overkomen.
-    - Strakke uitlijning.
-    - Consequent doorgevoerde huisstijl.
-    - Clean design.
-    - Herhaling van elementen.
-    - De site is goed gevuld met goede teksten en plaatjes.
-- De site is beschikbaar in het **Nederlands** en **Engels**.
-
+- [ ] Interactieve elementen op de website.
+- [x] Minimaal 5 plaatjes van het museum in de site.
+- [ ] de site staat op de ma-cloud online in een aparte map.
+- [x] de landing page moet professioneel overkomen.
+    - [x] Strakke uitlijning.
+    - [ ] Consequent doorgevoerde huisstijl.
+    - [x] Clean design.
+    - [x] Herhaling van elementen.
+    - [x] De site is goed gevuld met goede teksten en plaatjes.
+- [x] De site is beschikbaar in het **Nederlands** en **Engels**.
+ 
 ### Informatie over studenten
-
+ 
 Deze website en bijbehorende bestanden zijn gemaakt door Olgun Hristov & Milan Carati in de periode van *20 november 2023* tot en met *29 januari 2024*

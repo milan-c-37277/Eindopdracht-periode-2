@@ -205,16 +205,25 @@ input:checked+.slider:before {
     border-radius: 34px;
 }
 
+.slider.round img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+
+}
+
 .slider.round:before {
     border-radius: 50%;
 }
 
 .cycle-photo img {
     -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-      mask-image: linear-gradient(to bottom, rgba(0,0,0,0.5) rgba(0,0,0,1), rgba(0,0,0,0));
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,0.5) rgba(0,0,0,1), rgba(0,0,0,0));
     width: 100%;
     animation: fadeIn;
     animation-duration: 2s;
+    object-fit: contain;
+
 }
 
 .InfoPic {

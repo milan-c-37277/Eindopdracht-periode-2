@@ -1,4 +1,3 @@
-[09:19] Milan Carati
 # Eindopdracht-periode-2
  
 ### NXT Museum

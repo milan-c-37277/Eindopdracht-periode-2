@@ -1,3 +1,4 @@
+[09:19] Milan Carati
 # Eindopdracht-periode-2
  
 ### NXT Museum
@@ -15,12 +16,12 @@ voor de website waren er ook een paar eisen die minimaal op de website moesten s
     - [x] locatie / route.
 - [x] Reviews van bezoekers.
 ##### Andere eisen:
-- [ ] Interactieve elementen op de website.
+- [x] Interactieve elementen op de website.
 - [x] Minimaal 5 plaatjes van het museum in de site.
-- [ ] de site staat op de ma-cloud online in een aparte map.
+- [x] de site staat op de ma-cloud online in een aparte map.
 - [x] de landing page moet professioneel overkomen.
     - [x] Strakke uitlijning.
-    - [ ] Consequent doorgevoerde huisstijl.
+    - [x] Consequent doorgevoerde huisstijl.
     - [x] Clean design.
     - [x] Herhaling van elementen.
     - [x] De site is goed gevuld met goede teksten en plaatjes.
@@ -29,3 +30,4 @@ voor de website waren er ook een paar eisen die minimaal op de website moesten s
 ### Informatie over studenten
  
 Deze website en bijbehorende bestanden zijn gemaakt door Olgun Hristov & Milan Carati in de periode van *20 november 2023* tot en met *29 januari 2024*
+NXT Museum

@@ -1,3 +1,6 @@
+
+// Engels Nederlands
+
 let checkbox = document.getElementById("taalswitch");
 checkbox.addEventListener("click", (e) => {
     if (e.target.checked == true) {
@@ -9,6 +12,7 @@ checkbox.addEventListener("click", (e) => {
     }
 });
 
+// Background change
 function start() {
     var rotator = document.getElementById("rotader");
     var imageDir = './asset/';
@@ -31,7 +35,7 @@ window.onload = function () {
 }
 
 
-
+ // reviews
 function randomReview(reviewID) {
     let arrNaam = ["brent", "daniel ", "lars ", "olgun", "milan"]
     let arr = ["Ik vond het erg leuk ik zou er weer naar toe gaan", "Ik vond het wel prima ik zou het wel aan raden aan mensen die interese hebben in media", "Niet leuk ik zou hier Nooit meer naar toe komen niet een aanrader ", "Prima....", "Saai...",]
@@ -51,3 +55,22 @@ function randomReview(reviewID) {
 }
 randomReview("review1")
 randomReview("review2")
+
+
+// Read  more
+
+function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Meer";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Minder";
+      moreText.style.display = "inline";
+    }
+  }

@@ -4,30 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #more {display: none;}
+        </style>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>NXT Museum</title>
     <link rel="shortcut icon" href="asset/images.png" />
 </head>
 
 <body>
     <div class="header">
-        <a href="#infopic"><img src="asset/logo.png" alt="logo"/></a>
+        <a href="index.html"><img src="asset/logo.png" alt="logo" /></a>
         <div class="header-right">
             <a class="hover" href="https://nxtmuseum.com/nl/de-kunst-van-morgen-vandaag/" target="_blank">Over ons</a>
-            <a class="hover"href="https://nxtmuseum.com/nl/jouw-bezoek/" target="_blank">Jouw bezoek</a>
-            <a class="button" href="https://tickets.nxtmuseum.com/nl/tickets?_gl=1*g7lu0y*_ga*MzYwNDQ5MDMwLjE3MDA2NTAwNjc.*_ga_FL5TDXMYGX*MTcwMTg2MDQ2Ni4xMS4xLjE3MDE4NjA0ODcuMC4wLjA.*_fplc*QngzT0FKSER4U3ElMkIlMkZCWTdXTWdMNHFGd1h3QVppZEtROU1zaGVqdHRZTm9oU281ZENMbnRNeGU4WXJiZkFHJTJGVU40M2ozQ3BkOXBEMjhuM1pCb2lYMlYzUDA1b2lvbTI5NjhkMTNTRDVzeWsxNkFQZFdMbzZtVFloeGE0TlJnJTNEJTNE" target="_blank">Koop ticket</a>
+            <a class="hover" href="https://nxtmuseum.com/nl/jouw-bezoek/" target="_blank">Jouw bezoek</a>
+            <a class="button"
+                href="https://tickets.nxtmuseum.com/nl/tickets?_gl=1*g7lu0y*_ga*MzYwNDQ5MDMwLjE3MDA2NTAwNjc.*_ga_FL5TDXMYGX*MTcwMTg2MDQ2Ni4xMS4xLjE3MDE4NjA0ODcuMC4wLjA.*_fplc*QngzT0FKSER4U3ElMkIlMkZCWTdXTWdMNHFGd1h3QVppZEtROU1zaGVqdHRZTm9oU281ZENMbnRNeGU4WXJiZkFHJTJGVU40M2ozQ3BkOXBEMjhuM1pCb2lYMlYzUDA1b2lvbTI5NjhkMTNTRDVzeWsxNkFQZFdMbzZtVFloeGE0TlJnJTNEJTNE"
+                target="_blank">Koop ticket</a>
             <label class="switch">
                 <input type="checkbox" id="taalswitch">
-                    <span class="slider round"></span>
-                    <style>
-                        .slider.round:before {
-                            border-radius: 50%;
-                            background-size: cover;
-                            background-image: url(asset/nederlands.png);
-                        }
-                    </style>
-            </label> 
+                <span class="slider round"></span>
+                <style>
+                    .slider.round:before {
+                        border-radius: 50%;
+                        background-size: cover;
+                        background-image: url(asset/nederlands.png);
+                    }
+                </style>
+            </label>
         </div>
     </div>
 
@@ -39,18 +44,45 @@
         <div class="InfoPic-1">
             <img src="asset/nxt-01-credit-peter-tijhuis-1920x1426.jpg" alt="pic white" />
             <h3>Transition Rooms</h3>
-            <p>Wanneer je in deze veranderlijke omgeving stapt, past de ruimte zijn paden aan, meenavigerend met de bezoekers. Terwijl de grens tussen het fysieke en het etherische vervaagt, roept het werk intrigerende vragen op: wordt je door de ruimte geleid of ben je ermee verwikkeld in een gezamenlijke choreografie? Deze dynamiek benadrukt de alomtegenwoordige spanning tussen menselijke controle en de agency van de machine. </p> <p> Door de Living Room te bouwen met op maat gemaakte elektronica en software die reageert op bewegingssensoren, wil Random International een omgeving creëren die ons uitnodigt om niet alleen contact te maken met de ruimte, maar ook met onze medebezoekers.</p>
+            <p>Wanneer je in deze veranderlijke omgeving stapt, past de ruimte zijn paden aan, meenavigerend met de
+                bezoekers. Terwijl de grens tussen het fysieke en het etherische vervaagt, roept het werk intrigerende
+                vragen op: wordt je door de ruimte geleid of ben je ermee verwikkeld in een gezamenlijke choreografie?
+                Deze dynamiek benadrukt de alomtegenwoordige spanning tussen menselijke controle en de agency van de
+                machine.<p> <span id="dots">...</span><span id="more"> Door de Living Room te bouwen met op maat gemaakte elektronica en software die reageert op
+                    bewegingssensoren, wil Random International een omgeving creëren die ons uitnodigt om niet alleen
+                    contact te maken met de ruimte, maar ook met onze medebezoekers.</span>
+            </p>
+            <button onclick="myFunction()" id="myBtn">Meer</button>
+
+            <a href="Infopic1.html">
+                <button> Meer </button>
+            </a>
+            
         </div>
         <div class="InfoPic-2">
-            <img src="asset/MicrosoftTeams-image.png"/>
+            <img src="asset/MicrosoftTeams-image.png" />
             <h3>UFO - Unidentified Fluid Other - 1</h3>
-            <p>Amelia Winger-Bearskin is een multimediakunstenaar en professor in AI en de kunsten. Ze gebruikt in haar bekroonde werk kunstmatige intelligentie om een positieve impact te hebben op gemeenschappen en het milieu. Voor haar werk gebruikt ze eeuwenoude verhalen die al generaties worden doorgegeven als kern voor innovatieve vormen vol animaties en poëtische teksten. </p> <p> Haar werk daagt ons uit om de wereld vanuit nieuwe perspectieven te bekijken. In haar project TO BODY, dat in Realtime te zien is, gebruikt ze AI om alle door mensen gemaakte structuren uit stedelijke landschappen te wissen en zo de gebreken in onze zichtbare en onzichtbare visuele infrastructuren bloot te leggen. Door middel van poëzie en AI-animatie moedigt ze ons aan om nieuwe manieren van waarnemen te verkennen, voorbij de bestaande normen die we hebben geïnternaliseerd.</p>
+            <p>Amelia Winger-Bearskin is een multimediakunstenaar en professor in AI en de kunsten. Ze gebruikt in haar
+                bekroonde werk kunstmatige intelligentie om een positieve impact te hebben op gemeenschappen en het
+                milieu. Voor haar werk gebruikt ze eeuwenoude verhalen die al generaties worden doorgegeven als kern
+                voor innovatieve vormen vol animaties en poëtische teksten. </p>
+            <p> Haar werk daagt ons uit om de wereld vanuit nieuwe perspectieven te bekijken. In haar project TO BODY,
+                dat in Realtime te zien is, gebruikt ze AI om alle door mensen gemaakte structuren uit stedelijke
+                landschappen te wissen en zo de gebreken in onze zichtbare en onzichtbare visuele infrastructuren bloot
+                te leggen. Door middel van poëzie en AI-animatie moedigt ze ons aan om nieuwe manieren van waarnemen te
+                verkennen, voorbij de bestaande normen die we hebben geïnternaliseerd.</p>
         </div>
         <div class="InfoPic-3">
             <img src="asset/UFO_NXT_Museum4.png" />
             <h3>UFO - Unidentified Fluid Other - 2</h3>
-            <p>Libby Heaney is een bekroonde, in Londen gevestigde kunstenaar met een doctoraat in de kwantumfysica. Ze werkt met bewegend beeld, installaties en performances, meestal in combinatie met geavanceerde technologieën zoals kwantumcomputing.
-                In haar werk Q is for Climate (?), gepresenteerd in REALTIME1: LILYPADS – Mediating Exponential Systems, vraagt Heaney ‘wat is de impact van toekomstige kwantumcomputers op klimaatverandering?’ En ‘is het mogelijk om via de lens van kwantumcomputing te denken als het klimaat zelf?’ In dit werk verkent de ze de mogelijkheden door te putten uit interviews met wetenschappers van toonaangevende technologiebedrijven en haar eigen speculaties rond het radicale potentieel van kwantumcomputing.</p>
+            <p>Libby Heaney is een bekroonde, in Londen gevestigde kunstenaar met een doctoraat in de kwantumfysica. Ze
+                werkt met bewegend beeld, installaties en performances, meestal in combinatie met geavanceerde
+                technologieën zoals kwantumcomputing.
+                In haar werk Q is for Climate (?), gepresenteerd in REALTIME1: LILYPADS – Mediating Exponential Systems,
+                vraagt Heaney ‘wat is de impact van toekomstige kwantumcomputers op klimaatverandering?’ En ‘is het
+                mogelijk om via de lens van kwantumcomputing te denken als het klimaat zelf?’ In dit werk verkent de ze
+                de mogelijkheden door te putten uit interviews met wetenschappers van toonaangevende
+                technologiebedrijven en haar eigen speculaties rond het radicale potentieel van kwantumcomputing.</p>
 
         </div>
     </div>
@@ -60,14 +92,15 @@
 
         <div class="titles">
             <h2>Geschiedenis</h2>
-            <h2>wat te doen?</h2>  
+            <h2>wat te doen?</h2>
         </div>
         <div class="text-history">
             <div class="Geschiedenis">
                 <p>Nxt Museum, opgericht door de jonge ondernemer Merel van Helsdingen,
-                   exposeert grootschalige kunstinstallaties,
-                   die worden ontwikkeld vanuit interdisciplinaire samenwerkingen tussen gevestigde en opkomende kunstenaars,
-                   ontwerpers, technici, muzikanten en wetenschappers.
+                    exposeert grootschalige kunstinstallaties,
+                    die worden ontwikkeld vanuit interdisciplinaire samenwerkingen tussen gevestigde en opkomende
+                    kunstenaars,
+                    ontwerpers, technici, muzikanten en wetenschappers.
                 </p>
             </div>
             <div class="what-to-do">
@@ -97,7 +130,7 @@
                 studenten die iets met media doen. Leuk om naar
                 
                  de lichtjes te kijken en ze zien hoe het werkt</p> -->
-           
+
         </div>
     </div>
     <div class="footer">
@@ -114,8 +147,8 @@
                 <div class="Openingstijden">
                     <h3> Openingstijden</h3>
                     <h5>Zo - Di: 10:30 - 20:30<br>
-                    Wo: 11:00 - 21:30<br>
-                    Do - Za: 10:30 - 22:30</h5>
+                        Wo: 11:00 - 21:30<br>
+                        Do - Za: 10:30 - 22:30</h5>
                 </div>
             </div>
         </div>

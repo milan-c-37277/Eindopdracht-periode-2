@@ -244,6 +244,35 @@ input:checked+.slider:before {
     border-radius: 30px;
 }
 
+
+.InfoPic-1 > button{
+    font-family: Orbitron, sans-serif;
+  border: white;
+  background: #000000;
+  color: blueviolet;
+  display: flex;
+  justify-content: end;
+  margin-left: 340px;
+}
+
+
+
+.InfoPic-1 > a >button{
+  font-family: Orbitron, sans-serif;
+  border: white;
+  background: #000000;
+  color: blueviolet;
+  display: flex;
+  justify-content: end;
+  margin-left: 340px;
+}
+
+
+.Pic1{
+    animation: fadeBackground 6s;
+    animation-fill-mode: forwards;
+}
+
 .InfoPic-1 {
     animation: backInLeft;
     animation-duration: 2s;
@@ -526,3 +555,30 @@ input:checked+.slider:before {
 .footer img {
     width: 100%;
 }
+
+
+.Pic1 {  
+    width: 100%;
+    
+
+
+}
+
+.textP1{
+    font-size: larger;
+    color: #fff;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: absolute;
+    top: 250px;
+    right: 16px;
+    max-width: 20%;
+    background: rgba(0,0,0,0.5) ;
+    padding: 10px;
+    width: 300px;
+    
+}
+

@@ -5,20 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>NXT Museum</title>
     <link rel="shortcut icon" href="asset/images.png" />
 </head>
 
 <body>
     <div class="header">
-        <a href="#infopic"><img src="asset/logo.png" alt="logo"/></a>
+        <a href="#infopic"><img src="asset/logo.png" alt="logo" /></a>
         <div class="header-right">
             <a class="hover" href="https://nxtmuseum.com/nl/de-kunst-van-morgen-vandaag/" target="_blank">About us</a>
-            <a class="hover"href="https://nxtmuseum.com/nl/jouw-bezoek/" target="_blank">Your visit</a>
-            <a class="button" href="https://tickets.nxtmuseum.com/nl/tickets?_gl=1*g7lu0y*_ga*MzYwNDQ5MDMwLjE3MDA2NTAwNjc.*_ga_FL5TDXMYGX*MTcwMTg2MDQ2Ni4xMS4xLjE3MDE4NjA0ODcuMC4wLjA.*_fplc*QngzT0FKSER4U3ElMkIlMkZCWTdXTWdMNHFGd1h3QVppZEtROU1zaGVqdHRZTm9oU281ZENMbnRNeGU4WXJiZkFHJTJGVU40M2ozQ3BkOXBEMjhuM1pCb2lYMlYzUDA1b2lvbTI5NjhkMTNTRDVzeWsxNkFQZFdMbzZtVFloeGE0TlJnJTNEJTNE" target="_blank">Buy ticket</a>
+            <a class="hover" href="https://nxtmuseum.com/nl/jouw-bezoek/" target="_blank">Your visit</a>
+            <a class="button"
+                href="https://tickets.nxtmuseum.com/nl/tickets?_gl=1*g7lu0y*_ga*MzYwNDQ5MDMwLjE3MDA2NTAwNjc.*_ga_FL5TDXMYGX*MTcwMTg2MDQ2Ni4xMS4xLjE3MDE4NjA0ODcuMC4wLjA.*_fplc*QngzT0FKSER4U3ElMkIlMkZCWTdXTWdMNHFGd1h3QVppZEtROU1zaGVqdHRZTm9oU281ZENMbnRNeGU4WXJiZkFHJTJGVU40M2ozQ3BkOXBEMjhuM1pCb2lYMlYzUDA1b2lvbTI5NjhkMTNTRDVzeWsxNkFQZFdMbzZtVFloeGE0TlJnJTNEJTNE"
+                target="_blank">Buy ticket</a>
             <label class="switch">
-                <input type="checkbox"  id="taalswitch" checked>
+                <input type="checkbox" id="taalswitch" checked>
                 <span class="slider round" id="lang-slider"></span>
                 <style>
                     .slider.round:before {
@@ -28,7 +30,7 @@
                         background-position: center;
                     }
                 </style>
-            </label> 
+            </label>
         </div>
     </div>
 
@@ -40,18 +42,60 @@
         <div class="InfoPic-1">
             <img src="asset/nxt-01-credit-peter-tijhuis-1920x1426.jpg" alt="pic white" />
             <h3>Transition Rooms</h3>
-            <p>When you step into this changing environment, the space adapts its paths, navigating along with the visitors. As the boundary between the physical and the ethereal blurs, the work raises intriguing questions: are you guided through the space or are you involved in a joint choreography with it? This dynamic highlights the ubiquitous tension between human control and machine agency. </p> <p> By building the Living Room with custom electronics and software that responds to motion sensors, Random International aims to create an environment that invites us to connect not only with the space, but also with our fellow visitors.</p>
+            <p>When you step into this changing environment, the space adapts its paths, navigating along with the
+                visitors.
+                As the boundary between the physical and the ethereal blurs, the work raises intriguing questions:
+                are you guided through the space or are you involved in a joint choreography with it
+            </p>
+            <p>
+                <span id="dots" style="display: inline;">...</span>
+                <span id="more" style="display: none;"> This dynamic
+                    highlights the ubiquitous tension between human control and machine agency. By building the Living Room with custom electronics and software
+                    that responds to motion sensors,
+                    Random International aims to create an environment that invites us to connect not only with the
+                    space,
+                    but also with our fellow visitors.
+                </span>
+            </p>
+            <button onclick="myFunction()" id="myBtn">More</button>
         </div>
         <div class="InfoPic-2">
-            <img src="asset/MicrosoftTeams-image.png"/>
+            <img src="asset/MicrosoftTeams-image.png" />
             <h3>UFO - Unidentified Fluid Other - 1</h3>
-            <p>Amelia Winger-Bearskin is a multimedia artist and professor of AI and the arts. She uses artificial intelligence in her award-winning work to have a positive impact on communities and the environment. For her work she uses age-old stories that have been passed down for generations as a core for innovative forms full of animations and poetic texts. </p> <p> Her work challenges us to see the world from new perspectives. In her project TO BODY, which can be seen in Realtime, she uses AI to erase all man-made structures from urban landscapes, exposing the flaws in our visible and invisible visual infrastructures. Through poetry and AI animation, she encourages us to explore new ways of perceiving, beyond the existing norms we have internalized.</p>
+            <p>Amelia Winger-Bearskin is a multimedia artist and professor of AI and the arts.
+                She uses artificial intelligence in her award-winning work to have a positive impact on communities and
+                the environment.
+                For her work she uses age-old stories that have been passed down for generations as a core for
+                innovative forms full of animations and poetic texts. </p>
+            <p> <span id="dots2" style="display: inline;">...</span>
+                <span id="more2" style="display: none;">
+                    Her work
+                    challenges us to see the world from new perspectives.
+                    In her project TO BODY, which can be seen in Realtime, she uses AI to erase all man-made structures
+                    from urban landscapes, exposing the flaws in our visible and invisible visual infrastructures.
+                    Through poetry and AI animation, she encourages us to explore new ways of perceiving, beyond the
+                    existing norms we have internalized. </span>
+            </p>
+
+            <button onclick="myFunction2()" id="myBtn2">More</button>
         </div>
         <div class="InfoPic-3">
             <img src="asset/UFO_NXT_Museum4.png" />
             <h3>UFO - Unidentified Fluid Other - 2</h3>
-            <p>Libby Heaney is an award-winning, London-based artist with a PhD in quantum physics. She works with moving images, installations and performances, usually in combination with advanced technologies such as quantum computing.
-                In her work Q is for Climate (?), presented in REALTIME1: LILYPADS – Mediating Exponential Systems, Heaney asks 'what is the impact of future quantum computers on climate change?' and 'is it possible to think through the lens of quantum computing if it climate itself?' In this work she explores the possibilities by drawing on interviews with scientists from leading technology companies and her own speculations around the radical potential of quantum computing.</p>
+            <p>Libby Heaney is an award-winning, London-based artist with a PhD in quantum physics.
+                She works with moving images, installations and performances,
+                usually in combination with advanced technologies such as quantum computing.
+                In her work Q is for Climate (?), presented in REALTIME1:</p>
+            <p> <span id="dots3" style="display: inline;">...</span>
+                <span id="more3" style="display: none;">
+                    LILYPADS – Mediating Exponential Systems, Heaney asks 'what is the impact of future quantum
+                    computers on climate change?'
+                    and 'is it possible to think through the lens of quantum computing if it climate itself?'
+                    In this work she explores the possibilities by drawing on interviews with scientists from
+                    leading technology companies and her own speculations around the radical potential of quantum
+                    computing. </span></p>
+
+            <button onclick="myFunction3()" id="myBtn3">More</button>
 
         </div>
     </div>
@@ -61,7 +105,7 @@
 
         <div class="titles">
             <h2>Hisory</h2>
-            <h2>What to do?</h2>  
+            <h2>What to do?</h2>
         </div>
         <div class="text-history">
             <div class="Geschiedenis">
@@ -86,8 +130,8 @@
             <p>It was very interesting and fun for
 
                 students who do something with media. Nice to go to
-                
-                 look at the lights and see how it works</p>
+
+                look at the lights and see how it works</p>
             <img class="personIcon" src="asset/icon.jpg" alt="icon foto" />
         </div>
         <div class="review">
@@ -95,10 +139,10 @@
             <p>It was very interesting and fun for
 
                 students who do something with media. Nice to go to
-                
-                 look at the lights and see how it works</p>
+
+                look at the lights and see how it works</p>
             <img class="personIcon" src="asset/icon.jpg" alt="icon foto" />
-        </div>    
+        </div>
     </div>
     <div class="footer">
         <img src="asset/Naamloos-1.jpg" />
@@ -124,4 +168,5 @@
 
 </body>
 <script src="js/app.js"></script>
+
 </html>

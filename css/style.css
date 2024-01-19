@@ -245,27 +245,17 @@ input:checked+.slider:before {
 }
 
 
-.InfoPic-1 > button{
+.InfoPic-1 > button , .InfoPic-2 > button , .InfoPic-3 > button{
     font-family: Orbitron, sans-serif;
   border: white;
   background: #000000;
   color: blueviolet;
   display: flex;
   justify-content: end;
-  margin-left: 340px;
+  margin-left: start;
 }
 
 
-
-.InfoPic-1 > a >button{
-  font-family: Orbitron, sans-serif;
-  border: white;
-  background: #000000;
-  color: blueviolet;
-  display: flex;
-  justify-content: end;
-  margin-left: 340px;
-}
 
 
 .Pic1{
@@ -273,28 +263,16 @@ input:checked+.slider:before {
     animation-fill-mode: forwards;
 }
 
-.InfoPic-1 {
+.InfoPic-1 , .InfoPic-2 , .InfoPic-3 {
     animation: backInLeft;
     animation-duration: 2s;
     border: 2px solid white;
     border-radius: 30px;
+    margin: 20px;
+        
 }
 
-.InfoPic-2 {
-    margin-left: 40px;
-    margin-right: 40px;
-    animation: backInUp;
-    animation-duration: 2s;
-    border: 2px solid white;
-    border-radius: 30px;
-}
 
-.InfoPic-3 {
-    animation: backInRight;
-    animation-duration: 2s;
-    border: 2px solid white;
-    border-radius: 30px;
-}
 
 .InfoPic p {
     color: white;

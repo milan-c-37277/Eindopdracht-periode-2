@@ -246,24 +246,26 @@ input:checked+.slider:before {
 
 
 .InfoPic-1 > button , .InfoPic-2 > button , .InfoPic-3 > button{
-    font-family: Orbitron, sans-serif;
-  border: white;
+  font-family: Orbitron, sans-serif;
   background: #000000;
   color: blueviolet;
   display: flex;
   justify-content: end;
-  margin-left: start;
+  margin: 20px;
+  border: 2px solid white;
+  border-radius: 7px;
 }
 
-
-
+.InfoPic-1 > button , .InfoPic-2 > button , .InfoPic-3 > button:hover {
+    cursor: pointer;
+}
 
 .Pic1{
     animation: fadeBackground 6s;
     animation-fill-mode: forwards;
 }
 
-.InfoPic-1 , .InfoPic-2 , .InfoPic-3 {
+.InfoPic-1, .InfoPic-2, .InfoPic-3 {
     animation: backInLeft;
     animation-duration: 2s;
     border: 2px solid white;
@@ -271,8 +273,6 @@ input:checked+.slider:before {
     margin: 20px;
         
 }
-
-
 
 .InfoPic p {
     color: white;
@@ -367,13 +367,15 @@ input:checked+.slider:before {
 
 .review {
     position: relative;
+    margin: auto;
 }
 
 .review p {
     font-size: 12pt;
     color: white;
     background: transparent;
-    display: inline-block;
+    display: flex;
+    align-items: start;
     text-decoration: none;
     padding: 10px 20px;
     border: 3px solid white;
@@ -492,6 +494,8 @@ input:checked+.slider:before {
     border-bottom: 0;
     top: -17px;
     left: -28px;
+    z-index: 999;
+
 
 }
 

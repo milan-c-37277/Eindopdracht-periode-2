@@ -1,6 +1,5 @@
 
-// Engels Nederlands
-
+// Engels  |  Nederlands  Knop
 let checkbox = document.getElementById("taalswitch");
 checkbox.addEventListener("click", (e) => {
     if (e.target.checked == true) {
@@ -93,18 +92,18 @@ function myFunction() {
 
 
   function myFunction3() {
-    var dots = document.getElementById("dots3");
-    var moreText = document.getElementById("more3");
-    var btnText = document.getElementById("myBtn3");
+    var dots3 = document.getElementById("dots3");
+    var moreText3 = document.getElementById("more3");
+    var btnText3 = document.getElementById("myBtn3");
   
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "Meer";
-      moreText.style.display = "none";
+    if (dots3.style.display === "none") {
+      dots3.style.display = "inline";
+      btnText3.innerHTML = "Meer";
+      moreText3.style.display = "none";
     } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Minder";
-      moreText.style.display = "inline";
+      dots3.style.display = "none";
+      btnText3.innerHTML = "Minder";
+      moreText3.style.display = "inline";
     }
   }
 
